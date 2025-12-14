@@ -244,6 +244,13 @@
 - 要点整理：
   - 模型余额不足，需要充值。
 
+** Q27. Hugging Face 开源大模型报错Connection aborted.**
+
+- 要点整理：
+  - 网络原因，建议使用HF_ENDPOINT进行配置
+    - 示例详见 code/chapter3/Qwen.py
+    - https://hf-mirror.com
+
 ## 8. 数学基础问题
 
 **Q22. 在概率公式中，如何理解P(w_2∣w_1)**
