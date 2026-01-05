@@ -429,7 +429,7 @@ def create_gradio_ui():
 def main():
     """主函数 - 启动Gradio Web UI"""
     print("\n" + "="*60)
-    print("� 智能文档问答助手")
+    print("智能文档问答助手")
     print("="*60)
     print("正在启动Web界面...\n")
 
