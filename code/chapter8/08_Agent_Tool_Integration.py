@@ -405,8 +405,8 @@ class AgentIntegrationDemo:
         print(f"协同工作效率: {collaborative_time:.3f}秒/流程")
         
         # 获取最终统计
-        final_memory_stats = self.memory_tool.run({"action":"status"})
-        final_rag_stats = self.rag_tool.run({"action":"status"})
+        final_memory_stats = self.memory_tool.run({"action":"stats"})
+        final_rag_stats = self.rag_tool.run({"action":"stats"})
         
         print(f"\n📊 最终系统状态:")
         print(f"Memory系统: {final_memory_stats}")
