@@ -18,7 +18,6 @@ Action: [这里是你要调用的工具，格式为 function_name(arg_name="arg_
 
 
 import requests
-import json
 
 def get_weather(city: str) -> str:
     """
