@@ -255,7 +255,6 @@ We will use the free weather query service `wttr.in`, which can return weather d
 
 ```python
 import requests
-import json
 
 def get_weather(city: str) -> str:
     """

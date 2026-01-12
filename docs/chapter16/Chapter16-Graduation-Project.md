@@ -257,27 +257,27 @@ Detailed introduction to your project:
 
 ### Install Dependencies
 
-\`\`\`bash
+
 pip install -r requirements.txt
-\`\`\`
+
 
 ### Configure API Keys
 
-\`\`\`bash
+
 # Create .env file
 cp .env.example .env
 
 # Edit .env file and fill in your API keys
-\`\`\`
+
 
 ### Run Project
 
-\`\`\`bash
+
 # Start Jupyter Notebook
 jupyter lab
 
 # Open main.ipynb and run
-\`\`\`
+
 
 ## 📖 Usage Examples
 
