@@ -11,7 +11,7 @@ Thought: [这里是你的思考过程和下一步计划]
 Action: [这里是你要调用的工具，格式为 function_name(arg_name="arg_value")]
 
 # 任务完成:
-当你收集到足够的信息，能够回答用户的最终问题时，你必须在`Action:`字段后使用 `finish(answer="...")` 来输出最终答案。
+当你收集到足够的信息，能够回答用户的最终问题时，你必须在`Action:`字段后使用 `Finish[最终答案]` 来输出最终答案。
 
 请开始吧！
 """
@@ -178,8 +178,8 @@ for i in range(5): # 设置最大循环次数
         break
     action_str = action_match.group(1).strip()
 
-    if action_str.startswith("finish"):
-        final_answer = re.search(r'finish\(answer="(.*)"\)', action_str).group(1)
+    if action_str.startswith("Finish"):
+        final_answer = re.match(r"Finish\[(.*)\]", action_str).group(1)
         print(f"任务完成，最终答案: {final_answer}")
         break
     

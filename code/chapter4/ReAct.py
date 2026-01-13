@@ -53,7 +53,7 @@ class ReActAgent:
             
             if action.startswith("Finish"):
                 # 如果是Finish指令，提取最终答案并结束
-                final_answer = re.match(r"Finish\[(.*)\]", action).group(1)
+                final_answer = self._parse_action_input(action)
                 print(f"🎉 最终答案: {final_answer}")
                 return final_answer
             
