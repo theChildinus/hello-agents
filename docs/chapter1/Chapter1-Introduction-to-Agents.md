@@ -240,10 +240,10 @@ You are an intelligent travel assistant. Your task is to analyze user requests a
 # Action Format:
 Your response must strictly follow the following format. First is your thinking process, then the specific action you want to execute. Each response should output only one Thought-Action pair:
 Thought: [Here is your thinking process and next step plan]
-Action: [Here is the tool you want to call, in the format function_name(arg_name="arg_value")]
-
-# Task Completion:
-When you have collected enough information to answer the user's final question, you must use `Finish[final answer]` after the Action: field to output the final answer.
+Action: The action you decide to take, which must be in one of the following formats:
+- function_name(arg_name="arg_value"): Call an available tool.
+- Finish[final answer]: When you believe you have obtained the final answer.
+- When you have collected enough information to answer the user's final question, you must use `Finish[final answer]` after the Action: field to output the final answer.
 
 Let's begin!
 """
