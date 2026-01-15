@@ -240,10 +240,10 @@ You are an intelligent travel assistant. Your task is to analyze user requests a
 # Action Format:
 Your response must strictly follow the following format. First is your thinking process, then the specific action you want to execute. Each response should output only one Thought-Action pair:
 Thought: [Here is your thinking process and next step plan]
-Action: [Here is the tool you want to call, in the format function_name(arg_name="arg_value")]
-
-# Task Completion:
-When you have collected enough information to answer the user's final question, you must use `finish(answer="...")` after the Action: field to output the final answer.
+Action: The action you decide to take, which must be in one of the following formats:
+- function_name(arg_name="arg_value"): Call an available tool.
+- Finish[final answer]: When you believe you have obtained the final answer.
+- When you have collected enough information to answer the user's final question, you must use `Finish[final answer]` after the Action: field to output the final answer.
 
 Let's begin!
 """
@@ -435,8 +435,8 @@ for i in range(5): # Set maximum number of loops
         break
     action_str = action_match.group(1).strip()
 
-    if action_str.startswith("finish"):
-        final_answer = re.search(r'finish\(answer="(.*)"\)', action_str).group(1)
+    if action_str.startswith("Finish"):
+        final_answer = re.match(r"Finish\[(.*)\]", action_str).group(1)
         print(f"Task completed, final answer: {final_answer}")
         break
 
@@ -490,7 +490,7 @@ Calling large language model...
 Large language model responded successfully.
 Model output:
 Thought: I have obtained two attraction suggestions suitable for sunny days, now I can provide a satisfactory response to the user based on this information.
-Action: finish(answer="Today's weather in Beijing is sunny with a temperature of 26 degrees Celsius, very suitable for outdoor activities. I recommend you visit the Summer Palace to enjoy the beautiful lake views and ancient architecture, or go to the Great Wall to experience its spectacular scenery and profound historical significance. Hope you have a pleasant trip!")
+Action: Finish[Today's weather in Beijing is sunny with a temperature of 26 degrees Celsius, very suitable for outdoor activities. I recommend you visit the Summer Palace to enjoy the beautiful lake views and ancient architecture, or go to the Great Wall to experience its spectacular scenery and profound historical significance. Hope you have a pleasant trip!]
 
 Task completed, final answer: Today's weather in Beijing is sunny with a temperature of 26 degrees Celsius, very suitable for outdoor activities. I recommend you visit the Summer Palace to enjoy the beautiful lake views and ancient architecture, or go to the Great Wall to experience its spectacular scenery and profound historical significance. Hope you have a pleasant trip!
 ```
