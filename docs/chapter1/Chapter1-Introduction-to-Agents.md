@@ -431,8 +431,11 @@ for i in range(5): # Set maximum number of loops
     # 3.3. Parse and execute action
     action_match = re.search(r"Action: (.*)", llm_output, re.DOTALL)
     if not action_match:
-        print("Parse error: Action not found in model output.")
-        break
+        observation = "Error: No action found. Please explicitly use Action: finish(...) or other actions."
+        observation_str = f"Observation: {observation}"
+        print(f"{observation_str}\n" + "="*40)
+        prompt_history.append(observation_str)
+        continue
     action_str = action_match.group(1).strip()
 
     if action_str.startswith("Finish"):
