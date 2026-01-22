@@ -260,6 +260,7 @@ response_stream = llm.think(messages)
 print("ModelScope Response:")
 for chunk in response_stream:
     # Chunk already printed in my_llm, just pass here
+    # print(chunk, end="", flush=True)
     pass
 ```
 
