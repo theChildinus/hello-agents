@@ -259,8 +259,9 @@ response_stream = llm.think(messages)
 # Print response
 print("ModelScope Response:")
 for chunk in response_stream:
-    # chunk is already a text fragment, can be used directly
-    print(chunk, end="", flush=True)
+    # Chunk already printed in my_llm, just pass here
+    # print(chunk, end="", flush=True)
+    pass
 ```
 
 Through the above steps, we have successfully extended new functionality to the `hello-agents` library without modifying its source code. This method not only ensures code cleanliness and maintainability but also ensures that our customized functionality will not be lost when upgrading the `hello-agents` library in the future.
