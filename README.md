@@ -158,6 +158,13 @@
   </a>
 </div>
 
+## 读者交流群
+
+<div align='center'>
+    <img src="./读者群二维码.png" alt="读者群二维码" width="30%">
+    <p>扫描二维码加入读者交流群，与更多学习者交流讨论</p>
+</div>
+
 ## Star History
 
 <div align='center'>
