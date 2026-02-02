@@ -12,10 +12,11 @@
 
 在构建智能体之前，需要先完成必要的插件安装和 MCP 配置。如图1所示，按照图中文字指示一步步安装本章节所需插件。
 
-<div align="center">
-  <img src="images/Extra-03-image1.jpg" alt="插件安装示意图" width="90%"/>
-  <p>图1 插件安装示意图</p>
-</div>
+
+
+![图1 插件安装示意图](../images/Extra-03-image1.jpg)
+
+
 
 ## 2. 配置MCP（Model Context Protocol）
 
@@ -32,38 +33,43 @@
    - 登录后，按照图3所示，一步步点击进入高德地图MCP配置页面
    - 页面应如图4所示
 
-<div align="center">
-  <img src="images/Extra-03-image3.jpg" alt="高德地图MCP入口指引" width="90%"/>
-  <p>图3 高德地图MCP入口指引</p>
-</div>
 
-<div align="center">
-  <img src="images/Extra-03-image4.jpg" alt="高德地图MCP配置页面" width="90%"/>
-  <p>图4 高德地图MCP配置页面</p>
-</div>
+
+![图3 高德地图MCP入口指引](../images/Extra-03-image3.jpg)
+
+
+
+
+
+![图4 高德地图MCP配置页面](../images/Extra-03-image4.jpg)
+
+
 
 <strong>(4) 进入高德开放平台</strong>：[https://console.amap.com/dev/index](https://console.amap.com/dev/index)
    - 按照图5中文字指示新建应用
 
-<div align="center">
-  <img src="images/Extra-03-image5.jpg" alt="高德开放平台新建应用" width="90%"/>
-  <p>图5 高德开放平台新建应用</p>
-</div>
+
+
+![图5 高德开放平台新建应用](../images/Extra-03-image5.jpg)
+
+
 
 <strong>(5) 创建api_key</strong>
    - 如图6所示，一步步创建api_key
    - 将创建好的api_key输入图4的红框中，即可显示配置成功
    - 配置成功页面如图7所示
 
-<div align="center">
-  <img src="images/Extra-03-image6.jpg" alt="创建api_key步骤" width="90%"/>
-  <p>图6 创建api_key步骤</p>
-</div>
 
-<div align="center">
-  <img src="images/Extra-03-image7.jpg" alt="MCP配置成功页面" width="90%"/>
-  <p>图7 MCP配置成功页面</p>
-</div>
+
+![图6 创建api_key步骤](../images/Extra-03-image6.jpg)
+
+
+
+
+
+![图7 MCP配置成功页面](../images/Extra-03-image7.jpg)
+
+
 
 <strong>至此，整个高德地图MCP配置完成！</strong>
 
@@ -79,34 +85,38 @@
 
 整个智能体的编排架构如图8所示。
 
-<div align="center">
-  <img src="images/Extra-03-image8.jpg" alt="智能体编排架构图" width="90%"/>
-  <p>图8 智能体编排架构图</p>
-</div>
+
+
+![图8 智能体编排架构图](../images/Extra-03-image8.jpg)
+
+
 
 下面介绍如何搭建这样一个智能体的Chatflow：
 
 ### （1）创建Chatflow空白应用
 - 按照图9及图10，一步步创建Chatflow空白应用
 
-<div align="center">
-  <img src="images/Extra-03-image9.jpg" alt="创建Chatflow步骤1" width="90%"/>
-  <p>图9 创建Chatflow步骤1</p>
-</div>
 
-<div align="center">
-  <img src="images/Extra-03-image10.jpg" alt="创建Chatflow步骤2" width="90%"/>
-  <p>图10 创建Chatflow步骤2</p>
-</div>
+
+![图9 创建Chatflow步骤1](../images/Extra-03-image9.jpg)
+
+
+
+
+
+![图10 创建Chatflow步骤2](../images/Extra-03-image10.jpg)
+
+
 
 ### （2）创建问题分类器
 - 先创建一个问题分类器用于对输入问题进行分类
 - 分类器所填内容如图11所示
 
-<div align="center">
-  <img src="images/Extra-03-image11.jpg" alt="问题分类器配置" width="80%"/>
-  <p>图11 问题分类器配置</p>
-</div>
+
+
+![图11 问题分类器配置](../images/Extra-03-image11.jpg)
+
+
 
 ### （3）日常助手模块实现
 
@@ -117,10 +127,11 @@
 - 具体flow中各节点分别为"开始-问题分类器-LLM-直接回复"
 - <strong>后续我们直接用节点flow进行说明每个模块的flow</strong>
 
-<div align="center">
-  <img src="images/Extra-03-image12.jpg" alt="日常助手模块配置" width="90%"/>
-  <p>图12 日常助手模块配置</p>
-</div>
+
+
+![图12 日常助手模块配置](../images/Extra-03-image12.jpg)
+
+
 
 <strong>LLM节点的system_prompt如下</strong>：
 ```
@@ -186,10 +197,11 @@
 <strong>演示效果</strong>：
 如图13所示：
 
-<div align="center">
-  <img src="images/Extra-03-image13.png" alt="日常助手演示效果" width="80%"/>
-  <p>图13 日常助手演示效果</p>
-</div>
+
+
+![图13 日常助手演示效果](../images/Extra-03-image13.png)
+
+
 
 ### （4）文案优化模块实现
 
@@ -231,10 +243,11 @@
 <strong>演示效果</strong>：
 如图14所示：
 
-<div align="center">
-  <img src="images/Extra-03-image14.png" alt="文案优化演示效果" width="80%"/>
-  <p>图14 文案优化演示效果</p>
-</div>
+
+
+![图14 文案优化演示效果](../images/Extra-03-image14.png)
+
+
 
 ### （5）多模态生成模块（图片，视频）
 
@@ -247,35 +260,39 @@
 - 参考图15，创建豆包生图这一块的flow
 - flow中各节点分别为"开始-问题分类器-豆包T2I-直接回复"
 
-<div align="center">
-  <img src="images/Extra-03-image15.jpg" alt="豆包生图flow配置" width="90%"/>
-  <p>图15 豆包生图flow配置</p>
-</div>
+
+
+![图15 豆包生图flow配置](../images/Extra-03-image15.jpg)
+
+
 
 <strong>生图效果</strong>：
 如图16所示：
 
-<div align="center">
-  <img src="images/Extra-03-image16.png" alt="豆包生图效果展示" width="80%"/>
-  <p>图16 豆包生图效果展示</p>
-</div>
+
+
+![图16 豆包生图效果展示](../images/Extra-03-image16.png)
+
+
 
 <strong>视频生成配置</strong>：
 - 视频生成与图片生成同理，火山引擎中开通文生视频权限即可，见图17的说明
 - 文生视频flow中各节点分别为"开始-问题分类器-豆包T2V-直接回复"
 
-<div align="center">
-  <img src="images/Extra-03-image17.jpg" alt="文生视频权限开通" width="90%"/>
-  <p>图17 文生视频权限开通</p>
-</div>
+
+
+![图17 文生视频权限开通](../images/Extra-03-image17.jpg)
+
+
 
 <strong>生视频效果</strong>：
 如图18所示：
 
-<div align="center">
-  <img src="images/Extra-03-image18.png" alt="豆包生视频效果展示" width="80%"/>
-  <p>图18 豆包生视频效果展示</p>
-</div>
+
+
+![图18 豆包生视频效果展示](../images/Extra-03-image18.png)
+
+
 
 ### （6）MCP 工具集成（高德地图、饮食推荐、新闻资讯）
 
@@ -289,41 +306,46 @@
 4. 配置 MCP 服务（找到图7，选择 SSE 模式，删除 mcp-server 前缀后把其他信息复制过来）
 5. 填写相应的提示词
 
-<div align="center">
-  <img src="images/Extra-03-image19.jpg" alt="MCP工具集成配置步骤" width="90%"/>
-  <p>图19 MCP工具集成配置步骤</p>
-</div>
+
+
+![图19 MCP工具集成配置步骤](../images/Extra-03-image19.jpg)
+
+
 
 <strong>具体配置</strong>：
 - 最后Agent节点填写信息可参考图20
 - MCP服务调用的flow中各节点分别为"开始-问题分类器-Agent-直接回复"
 
-<div align="center">
-  <img src="images/Extra-03-image20.jpg" alt="Agent节点配置详情" width="50%"/>
-  <p>图20 Agent节点配置详情</p>
-</div>
+
+
+![图20 Agent节点配置详情](../images/Extra-03-image20.jpg)
+
+
 
 <strong>效果展示</strong>：
 - 高德助手效果：如图21所示
 
-<div align="center">
-  <img src="images/Extra-03-image21.png" alt="高德助手效果展示" width="80%"/>
-  <p>图21 高德助手效果展示</p>
-</div>
+
+
+![图21 高德助手效果展示](../images/Extra-03-image21.png)
+
+
 
 - 饮食助手效果：如图22所示
 
-<div align="center">
-  <img src="images/Extra-03-image22.png" alt="饮食助手效果展示" width="80%"/>
-  <p>图22 饮食助手效果展示</p>
-</div>
+
+
+![图22 饮食助手效果展示](../images/Extra-03-image22.png)
+
+
 
 - 新闻助手效果：如图23所示
 
-<div align="center">
-  <img src="images/Extra-03-image23.png" alt="新闻助手效果展示" width="50%"/>
-  <p>图23 新闻助手效果展示</p>
-</div>
+
+
+![图23 新闻助手效果展示](../images/Extra-03-image23.png)
+
+
 
 ### （7）数据查询与分析模块
 
@@ -338,10 +360,11 @@
 
 配置数据库连接信息（IP地址、数据库名称、端口、账号、密码等），如图24所示。查询结果需要通过大模型节点进行整理，转换为易于理解的自然语言输出。
 
-<div align="center">
-  <img src="images/Extra-03-image24.png" alt="数据库配置" width="50%"/>
-  <p>图24 数据库配置</p>
-</div>
+
+
+![图24 数据库配置](../images/Extra-03-image24.png)
+
+
 
 <strong>提示词设置：</strong>
 ```
@@ -370,10 +393,11 @@
 
 效果展示如图25所示：
 
-<div align="center">
-  <img src="images/Extra-03-image25.png" alt="数据查询助手效果" width="80%"/>
-  <p>图25 数据查询助手</p>
-</div>
+
+
+![图25 数据查询助手](../images/Extra-03-image25.png)
+
+
 
 <strong>提示词设置：</strong>
 ```
@@ -404,10 +428,11 @@
 2. 展示生成的图表
 ```
 
-<div align="center">
-  <img src="images/Extra-03-image26.png" alt="数据分析助手效果" width="80%"/>
-  <p>图26 数据分析助手</p>
-</div>
+
+
+![图26 数据分析助手](../images/Extra-03-image26.png)
+
+
 
 数据分析助手这一块唯一的不同就是我们增加了数据可视化的工具，也就是"generate_pie_chart" | "generate_column_chart" | "generate_line_chart"这几个生成BI图表的工具插件，这个在前面相信大家都按照要求安装了就可以直接添加启动使用，并像上面的提示词一样增加对应的描述即可。这块大家后续可以自己连着sql尝试一下，就不过多赘述了~
 
