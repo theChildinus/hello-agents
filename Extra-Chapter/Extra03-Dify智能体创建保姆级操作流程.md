@@ -25,10 +25,8 @@
 
 <strong>(2) 注册账号并登录</strong>，如图2所示
 
-<div align="center">
-  <img src="images/Extra-03-image2.jpg" alt="ModelScope注册登录界面" width="90%"/>
-  <p>图2 ModelScope注册登录界面</p>
-</div>
+
+![图2 ModelScope注册登录界面](../images/Extra-03-image2.jpg)
 
 <strong>(3) 进入高德地图MCP配置页面</strong>
    - 登录后，按照图3所示，一步步点击进入高德地图MCP配置页面

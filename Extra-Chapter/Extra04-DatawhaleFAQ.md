@@ -218,8 +218,8 @@
   - 配置流程，获取API_KEY、MODEL_ID、BASE_URL设置于环境变量`.env`文件中。
   - modelscope社区的模型api获取方法 https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct
     - 点击模型库，找到支持API-Inference的模型，点击进入模型详情页面，找到API-Inference
-    - ![alt text](images/Extra-04-3f1b68eedc9d9e556fbb51358bf49f9d.png)
-    - ![alt text](images/Extra-04-e7dd177f-4867-4af0-bd0e-03771a3a040e.png)
+    - ![alt text](../images/Extra-04-3f1b68eedc9d9e556fbb51358bf49f9d.png)
+    - ![alt text](../images/Extra-04-e7dd177f-4867-4af0-bd0e-03771a3a040e.png)
 
 
 <strong>Q18. 在实现ReAct工作流的时候，这个serpApi网页搜索工具还有没有替代的？</strong>

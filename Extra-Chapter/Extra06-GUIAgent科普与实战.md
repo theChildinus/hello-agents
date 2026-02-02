@@ -44,10 +44,11 @@ GUI Agent 的爆发并非偶然，而是多个技术领域同步成熟的结果�
 
 一个完整的 GUI Agent 系统可以被分解为三个核心模块：**感知（Perception）** → **推理（Reasoning）** → **执行（Action）**。这是一个闭环的自主决策系统。
 
-<div align="center">
-  <img src="images/Extra-05-image1.png" alt=""/> alt="GUI Agent 三层架构" width="90%"/>
-  <p>图 1 GUI Agent 的感知-推理-执行闭环</p>
-</div>
+
+
+![图 1 GUI Agent 的感知-推理-执行闭环](../images/Extra-05-image1.png)
+
+
 
 
 #### 1.2.1 感知层：机器如何"看见"屏幕
@@ -82,10 +83,11 @@ GUI Agent 的爆发并非偶然，而是多个技术领域同步成熟的结果�
 
 2024-2025年是 GUI Agent 的爆发期，各大科技公司和研究机构纷纷开源了自己的框架。让我们系统地对比几个最具代表性的项目：
 
-<div align="center">
-  <img src="images/Extra-05-image2.png" alt=""/> alt="主流GUI Agent框架对比" width="90%"/>
-  <p>图 2 主流 GUI Agent 框架全景对比雷达图</p>
-</div>
+
+
+![图 2 主流 GUI Agent 框架全景对比雷达图](../images/Extra-05-image2.png)
+
+
 
 
 ### 1.4 应用场景与技术局限
@@ -140,10 +142,11 @@ Mobile-Agent-v3 不仅支持手机，还能操作电脑。如图 3 所示，我�
 2. **桌面预览**：右侧窗口展示的是云端分配给你的 Windows 10 桌面，预装了 Office、浏览器等基础软件。
 3. **交互区**：左下角为指令输入区，Agent 的思考过程（Thinking Process）和操作步骤将显示在上方对话框中。
 
-<div align="center">
-  <img src="images/Extra-05-image3.png" alt=""/> alt="ModelScope Demo界面" width="90%"/>
-  <p>图 3 Mobile-Agent-v3 在线 Demo 界面说明</p>
-</div>
+
+
+![图 3 Mobile-Agent-v3 在线 Demo 界面说明](../images/Extra-05-image3.png)
+
+
 
 在这个界面中，你可以直接指挥 Agent 进行办公操作，不过目前使用时间有限时。
 
@@ -301,10 +304,11 @@ ABC12345    device
 
 对于 Windows 用户，可能还需要安装手机的驱动程序。大部分品牌的手机（如小米、华为、OPPO）都会在连接电脑时自动安装驱动，但如果遇到问题，可以去官网下载对应的 USB 驱动。
 
-<div align="center">
-  <img src="images/Extra-05-image4.png" alt=""/> alt="手机ADB连接配置步骤" width="90%"/>
-  <p>图 4 Android 手机 ADB 连接完整配置流程</p>
-</div>
+
+
+![图 4 Android 手机 ADB 连接完整配置流程](../images/Extra-05-image4.png)
+
+
 
 
 #### 2.2.4 第三步：运行你的第一个任务

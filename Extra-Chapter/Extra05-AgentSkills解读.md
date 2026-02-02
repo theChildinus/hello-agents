@@ -66,10 +66,11 @@ response = agent.run("""
 
 Agent Skills 最核心的创新是<strong>渐进式披露（Progressive Disclosure）机制</strong>。这种机制将技能信息分为三个层次，智能体按需逐步加载，既确保必要时不遗漏细节，又避免一次性将过多内容塞入上下文窗口。
 
-<div align="center">
-  <img src="images/Extra-05-image1.png" alt=""/> alt="渐进式披露三层架构" width="90%"/>
-  <p>图 1 Agent Skills 渐进式披露三层架构</p>
-</div>
+
+
+![图 1 Agent Skills 渐进式披露三层架构](../images/Extra-05-image1.png)
+
+
 
 
 #### 第一层：元数据（Metadata）
@@ -127,10 +128,11 @@ skills/pdf-processing/
 
 现在，我们可以系统地比较这两种技术的本质区别了。
 
-<div align="center">
-  <img src="images/Extra-05-image2.png" alt=""/> alt="MCP与Agent Skills设计哲学对比" width="90%"/>
-  <p>图 2 MCP 与 Agent Skills 设计哲学对比</p>
-</div>
+
+
+![图 2 MCP 与 Agent Skills 设计哲学对比](../images/Extra-05-image2.png)
+
+
 
 ### 从工程视角理解差异
 
@@ -201,20 +203,22 @@ Skills 告诉智能体"应该"做什么、如何组织审查流程、需要关�
 
 ### 上下文管理策略的本质差异
 
-<div align="center">
-  <img src="images/Extra-05-image3.png" alt=""/> alt="MCP急切加载 vs Skills惰性加载" width="90%"/>
-  <p>图 3 MCP 急切加载 vs Skills 惰性加载对比</p>
-</div>
+
+
+![图 3 MCP 急切加载 vs Skills 惰性加载对比](../images/Extra-05-image3.png)
+
+
 
 
 ### 互补而非竞争：Skills + MCP 的混合架构
 
 理解了两者的差异后，我们会发现：<strong>Skills 和 MCP 不是竞争关系，而是互补关系</strong>。最佳实践是将两者结合，形成分层架构：
 
-<div align="center">
-  <img src="images/Extra-05-image4.png" alt=""/> alt="Skills + MCP 混合架构" width="90%"/>
-  <p>图 4 Skills + MCP 混合架构设计</p>
-</div>
+
+
+![图 4 Skills + MCP 混合架构设计](../images/Extra-05-image4.png)
+
+
 <strong>典型工作流</strong>：
 
 1. 用户问："分析公司内部谁的话语权最高"
@@ -592,10 +596,11 @@ LIMIT 20;
 **用户问题**：
 > "分析公司内部谁的话语权最高？需要综合考虑管理层级、薪资水平和任职时长。"
 
-<div align="center">
-  <img src="images/Extra-05-image5.png" alt=""/> alt="Agent Skills工作流程" width="90%"/>
-  <p>图 5 Agent Skills 完整工作流程示意</p>
-</div>
+
+
+![图 5 Agent Skills 完整工作流程示意](../images/Extra-05-image5.png)
+
+
 
 
 **输出示例**：
@@ -796,10 +801,11 @@ Agent Skills 和 MCP 代表了智能体技术栈中两个关键的抽象层：
 
 两者不是竞争关系，而是互补关系：
 
-<div align="center">
-  <img src="images/Extra-05-image6.png" alt=""/> alt="MCP与Agent Skills总结对比" width="90%"/>
-  <p>图 6 MCP 与 Agent Skills 全面对比总结</p>
-</div>
+
+
+![图 6 MCP 与 Agent Skills 全面对比总结](../images/Extra-05-image6.png)
+
+
 
 
 <strong>关键洞察</strong>：

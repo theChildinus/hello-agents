@@ -8,10 +8,6 @@
   </a>
   </div>
   <p><em>从基础理论到实际应用，全面掌握智能体系统的设计与实现</em></p>
-  <img src="https://img.shields.io/github/stars/datawhalechina/Hello-Agents?style=flat&logo=github" alt="GitHub stars"/>
-  <img src="https://img.shields.io/github/forks/datawhalechina/Hello-Agents?style=flat&logo=github" alt="GitHub forks"/>
-  <img src="https://img.shields.io/badge/language-Chinese-brightgreen?style=flat" alt="Language"/>
-  <a href="https://github.com/datawhalechina/Hello-Agents"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
   <a href="https://datawhalechina.github.io/hello-agents/"><img src="https://img.shields.io/badge/在线阅读-Online%20Reading-green?style=flat&logo=gitbook" alt="Online Reading"></a>
 </div>
 
@@ -136,9 +132,11 @@
 
 ## Star History
 
-<div align='center'>
-    <img src="images/star-history-2026113.png" alt="Datawhale" width="90%">
-</div>
+
+
+![图片](images/star-history-2026113.png)
+
+
 
 <div align="center">
   <p>⭐ 如果这个项目对你有帮助，请给我们一个 Star！</p>
@@ -146,10 +144,11 @@
 
 ## 关于 Datawhale
 
-<div align='center'>
-    <img src="images/datawhale.png" alt="Datawhale" width="30%">
-    <p>扫描二维码关注 Datawhale 公众号，获取更多优质开源内容</p>
-</div>
+
+
+![扫描二维码关注 Datawhale 公众号，获取更多优质开源内容](images/datawhale.png)
+
+
 
 ---
 

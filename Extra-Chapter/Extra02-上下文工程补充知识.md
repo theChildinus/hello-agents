@@ -6,7 +6,7 @@
 Chroma 向量数据库领域的开源霸主。连大名鼎鼎的 Voyager 论文里用的都是它。
 CEOJeff 对话的标题就是关于“RAG is dead”的观念，在视频中很明显的说明了原本的RAG的局限性和现在context engnieer的重要性，
 
-![alt text](images/Extra-02-image-1.png)
+![alt text](../images/Extra-02-image-1.png)
 
 
 本章我们先全面讲解一下“上下文工程”的（context engnieer）概念， 
@@ -19,7 +19,7 @@ CEOJeff 对话的标题就是关于“RAG is dead”的观念，在视频中很�
 我们可以打一个比方，Agent就像一种[新型操作系统](https://www.youtube.com/watch?si=-aKY-x57ILAmWTdw&t=620&v=LCEmiRjPEtQ&feature=youtu.be&ref=blog.langchain.com)。LLM如同CPU，其[上下文窗口](https://docs.anthropic.com/en/docs/build-with-claude/context-windows?ref=blog.langchain.com)如同RAM，作为模型的工作内存。就像RAM一样，LLM上下文窗口的[容量有限](https://lilianweng.github.io/posts/2023-06-23-agent/?ref=blog.langchain.com)，无法处理各种来源的上下文。而上下文工程就像操作系统管理CPU的RAM一样，去管理LLM的上下文窗口，决定在何时去填充什么内容。[Karpathy总结得很好](https://x.com/karpathy/status/1937902205765607626?ref=blog.langchain.com)：
 _"上下文工程是...在上下文窗口中为下一步填充恰到好处信息的精妙艺术和科学。"_
 
-![llm_context_engineering](https://blog.langchain.com/content/images/2025/07/image-1.png)
+![llm_context_engineering](https://blog.langchain.com/content/../images/2025/07/image-1.png)
 
 
 
@@ -40,7 +40,7 @@ _"上下文工程是...在上下文窗口中为下一步填充恰到好处信息
 
 ## [上下文工程的概念](https://blog.langchain.com/context-engineering-for-agents/`)
 
-![alt text](images/Extra-02-image-2.png)
+![alt text](../images/Extra-02-image-2.png)
 
 Context就是模型“看到”的一切，模型其实并不是只根据我们输入的prompt回复问题，还有其余的信息配合生成回复。上下文工程作为适用于几种不同上下文类型的总括：
 
@@ -69,7 +69,7 @@ Context就是模型“看到”的一切，模型其实并不是只根据我们�
 ### 例子——旅游APP的智能助手
 
 
-![alt text](images/Extra-02-image-5.png)
+![alt text](../images/Extra-02-image-5.png)
 
 
 为了清晰地区分这四个概念，我们设定一个统一的实际场景，然后看每个方法如何解决这个问题。
@@ -208,7 +208,7 @@ Agent 让 AI 从一个“问答机器人”进化成一个<strong>能思考、�
 
 ## 为什么会出现 Context Engineer？
 
-![alt text](images/Extra-02-image-3.png)
+![alt text](../images/Extra-02-image-3.png)
 
 
 随着LLM在推理和工具调用方面变得越来越好，大家对Agent的兴趣大幅增长。Agent将LLM调用和工具调用交织在一起，通常用于长时间运行的任务。Agent使用工具反馈来决定下一步操作。
@@ -218,7 +218,7 @@ Agent 让 AI 从一个“问答机器人”进化成一个<strong>能思考、�
 
 随着上下文窗口越来越长，我们原本以为“把所有对话历史和资料都丢进模型”就能解决记忆问题。但实验表明，现实远比想象复杂。随着上下文长度增长，模型越来越难保持信息的准确性与一致性，表现就像“<strong>记忆腐烂</strong>”。
 
-![alt text](images/Extra-02-image-4.png)
+![alt text](../images/Extra-02-image-4.png)
 
 这些现象在 Chroma 的研究中被称为Context Rot——即模型在长语境下的性能“腐蚀”。这正是Context Engineer这一角色诞生的根本原因：需要有人去对抗和修复这种“语境腐烂”，通过裁剪、压缩、重组和检索增强，让模型在有限的注意力资源中保持可靠表现。
 
@@ -277,7 +277,7 @@ Agent 让 AI 从一个“问答机器人”进化成一个<strong>能思考、�
 
 上一节提到上下文面临如此多的挑战，那么如何克服它们呢？这就要依靠上下文工程。其中，上下文工程的策略主要分为四种：写入（存储）、选择、压缩和隔离。
 
-![alt text](images/Extra-02-image-6.png)
+![alt text](../images/Extra-02-image-6.png)
 
 ### 写入上下文
 
@@ -288,7 +288,7 @@ Agent 让 AI 从一个“问答机器人”进化成一个<strong>能思考、�
 - <strong>记忆</strong>
 Agent 把新发生的上下文（new context）与已有的记忆（existing memories）结合，经过处理后写成更新的记忆（updated memory）
 
-![alt text](images/Extra-02-image-8.png)
+![alt text](../images/Extra-02-image-8.png)
 
 
 
@@ -311,7 +311,7 @@ Agent 把新发生的上下文（new context）与已有的记忆（existing mem
 
 
 
-![alt text](images/Extra-02-image-9.png)
+![alt text](../images/Extra-02-image-9.png)
 
 
 压缩上下文涉及仅保留执行任务所需的token，通过减少冗余信息来优化上下文窗口的使用效率。
@@ -342,7 +342,7 @@ Agent 把新发生的上下文（new context）与已有的记忆（existing mem
 
 #### 多Agent架构
 
-![alt text](images/Extra-02-image-10.png)
+![alt text](../images/Extra-02-image-10.png)
 
 <strong>关注点分离：</strong>
 将复杂的大任务拆分成多个独立的子任务,每个子任务由专门的Agent负责。这种设计遵循单一职责原则,使每个Agent专注于特定领域,提高整体系统的可维护性和可扩展性。
@@ -358,7 +358,7 @@ Agent 把新发生的上下文（new context）与已有的记忆（existing mem
 
 #### 执行环境隔离
 
-![alt text](images/Extra-02-image-11.png)
+![alt text](../images/Extra-02-image-11.png)
 
 <strong>上下文与执行分离：</strong>
 将代码执行环境与LLM的上下文窗口隔离开来,LLM不需要直接接触所有工具的原始输出数据。
@@ -390,7 +390,7 @@ Agent 把新发生的上下文（new context）与已有的记忆（existing mem
 
 ## 总结与思考：RAG is Dead?
 
-![alt text](images/Extra-02-image.png)
+![alt text](../images/Extra-02-image.png)
 
 
 Jeff主要批评了传统的RAG将"检索（Retrieval）、增强（Augmented）、生成（Generation）"三个不同概念强行捆绑在一起，导致了概念上的混乱和实践上的模糊化。从上下文工程的视角重新审视RAG，可以将其拆解为更清晰的步骤：
@@ -420,7 +420,7 @@ Jeff主要批评了传统的RAG将"检索（Retrieval）、增强（Augmented）
 
 只有懂得这些问题，才能实现有效的上下文工程，实现艺术与工程的完美结合。
 
-![alt text](images/Extra-02-image-12.png)
+![alt text](../images/Extra-02-image-12.png)
 
 
 ## 参考文献
