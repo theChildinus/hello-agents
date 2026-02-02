@@ -33,7 +33,7 @@ AIHubmix 是一个位于美国特拉华州的 AI 模型聚合平台，整合了�
 
    使用浏览器访问 [AIHubmix 官方网站](https://aihubmix.com/?aff=Igcn/)
 
-   ![image1](images/Extra07-figures/image1.png)
+   ![image1](images/Extra-05-image1.png)
 
 2. **完成账户注册**
 
@@ -43,13 +43,13 @@ AIHubmix 是一个位于美国特拉华州的 AI 模型聚合平台，整合了�
 
    注册成功后，访问[模型中心](https://aihubmix.com/models)查看所有可用模型。在筛选条件中选择`免费`标签，即可查看平台提供的免费模型列表。建议选择 `coding-glm-4.7-freecoding-glm-4.7-free` 或其他兼容 OpenAI 格式的免费模型。
 
-   ![image2](images/Extra07-figures/image2.png)
+   ![image2](images/Extra-05-image2.png)
 
 4. **获取 API 凭证**
 
    前往[API 密钥管理](https://console.aihubmix.com/token)页面，系统默认会生成一个可用的密钥。您也可以通过点击 `创建 Key` 按钮自定义密钥名称并生成新的密钥。
 
-   ![image3](images/Extra07-figures/image3.png)
+   ![image3](images/Extra-05-image3.png)
    
    请妥善保存以下配置信息：
    - API Key: `your_api_key`
@@ -66,9 +66,9 @@ ModelScope 是国内领先的大模型服务商，提供高性价比的 API 服�
 
 请确保您拥有一个正常注册且可使用的ModelScope账户。要生成您的私有 API KEY可以参考我们的图示。
 
-![image4](images/Extra07-figures/image4.png)
+![image4](images/Extra-05-image4.png)
 
-![image5](images/Extra07-figures/image5.png)
+![image5](images/Extra-05-image5.png)
 
 图中的SDK令牌就是我们的API KEY。
 
@@ -78,7 +78,7 @@ ModelScope 是国内领先的大模型服务商，提供高性价比的 API 服�
 
 在ModelScope中的[模型库](https://modelscope.cn/models?filter=inference_type&page=1)中选择推理 API-Inference ，里面的模型都可以选择，我们可以体验到最新的使用DeepSeek-R1数据蒸馏出的Llama-70B模型。
 
-![image6](images/Extra07-figures/image6.png)
+![image6](images/Extra-05-image6.png)
 
 最终所需格式与AIHubmix的配置信息相同(Key，URL，模型名称)
 
@@ -92,11 +92,11 @@ Tavily 是一个专为 AI 应用设计的搜索 API，用于景点推荐功能�
 
    打开浏览器，访问 [Tavily](https://tavily.com/)
 
-   ![image7](images/Extra07-figures/image7.png)
+   ![image7](images/Extra-07-image7.png)
 
 2. **注册并获取 API 密钥**
 
-   ![image8](images/Extra07-figures/image8.png)
+   ![image8](images/Extra-07-image8.png)
 
    1. 注册账号
    2. 在控制台获取 API Key

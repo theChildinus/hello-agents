@@ -13,7 +13,7 @@
 在构建智能体之前，需要先完成必要的插件安装和 MCP 配置。如图1所示，按照图中文字指示一步步安装本章节所需插件。
 
 <div align="center">
-  <img src="./images/Extra03-figures/image1.jpg" alt="插件安装示意图" width="90%"/>
+  <img src="images/Extra-03-image1.jpg" alt="插件安装示意图" width="90%"/>
   <p>图1 插件安装示意图</p>
 </div>
 
@@ -26,7 +26,7 @@
 <strong>(2) 注册账号并登录</strong>，如图2所示
 
 <div align="center">
-  <img src="./images/Extra03-figures/image2.jpg" alt="ModelScope注册登录界面" width="90%"/>
+  <img src="images/Extra-03-image2.jpg" alt="ModelScope注册登录界面" width="90%"/>
   <p>图2 ModelScope注册登录界面</p>
 </div>
 
@@ -35,12 +35,12 @@
    - 页面应如图4所示
 
 <div align="center">
-  <img src="./images/Extra03-figures/image3.jpg" alt="高德地图MCP入口指引" width="90%"/>
+  <img src="images/Extra-03-image3.jpg" alt="高德地图MCP入口指引" width="90%"/>
   <p>图3 高德地图MCP入口指引</p>
 </div>
 
 <div align="center">
-  <img src="./images/Extra03-figures/image4.jpg" alt="高德地图MCP配置页面" width="90%"/>
+  <img src="images/Extra-03-image4.jpg" alt="高德地图MCP配置页面" width="90%"/>
   <p>图4 高德地图MCP配置页面</p>
 </div>
 
@@ -48,7 +48,7 @@
    - 按照图5中文字指示新建应用
 
 <div align="center">
-  <img src="./images/Extra03-figures/image5.jpg" alt="高德开放平台新建应用" width="90%"/>
+  <img src="images/Extra-03-image5.jpg" alt="高德开放平台新建应用" width="90%"/>
   <p>图5 高德开放平台新建应用</p>
 </div>
 
@@ -58,12 +58,12 @@
    - 配置成功页面如图7所示
 
 <div align="center">
-  <img src="./images/Extra03-figures/image6.jpg" alt="创建api_key步骤" width="90%"/>
+  <img src="images/Extra-03-image6.jpg" alt="创建api_key步骤" width="90%"/>
   <p>图6 创建api_key步骤</p>
 </div>
 
 <div align="center">
-  <img src="./images/Extra03-figures/image7.jpg" alt="MCP配置成功页面" width="90%"/>
+  <img src="images/Extra-03-image7.jpg" alt="MCP配置成功页面" width="90%"/>
   <p>图7 MCP配置成功页面</p>
 </div>
 
@@ -82,7 +82,7 @@
 整个智能体的编排架构如图8所示。
 
 <div align="center">
-  <img src="./images/Extra03-figures/image8.jpg" alt="智能体编排架构图" width="90%"/>
+  <img src="images/Extra-03-image8.jpg" alt="智能体编排架构图" width="90%"/>
   <p>图8 智能体编排架构图</p>
 </div>
 
@@ -92,12 +92,12 @@
 - 按照图9及图10，一步步创建Chatflow空白应用
 
 <div align="center">
-  <img src="./images/Extra03-figures/image9.jpg" alt="创建Chatflow步骤1" width="90%"/>
+  <img src="images/Extra-03-image9.jpg" alt="创建Chatflow步骤1" width="90%"/>
   <p>图9 创建Chatflow步骤1</p>
 </div>
 
 <div align="center">
-  <img src="./images/Extra03-figures/image10.jpg" alt="创建Chatflow步骤2" width="90%"/>
+  <img src="images/Extra-03-image10.jpg" alt="创建Chatflow步骤2" width="90%"/>
   <p>图10 创建Chatflow步骤2</p>
 </div>
 
@@ -106,7 +106,7 @@
 - 分类器所填内容如图11所示
 
 <div align="center">
-  <img src="./images/Extra03-figures/image11.jpg" alt="问题分类器配置" width="80%"/>
+  <img src="images/Extra-03-image11.jpg" alt="问题分类器配置" width="80%"/>
   <p>图11 问题分类器配置</p>
 </div>
 
@@ -120,7 +120,7 @@
 - <strong>后续我们直接用节点flow进行说明每个模块的flow</strong>
 
 <div align="center">
-  <img src="./images/Extra03-figures/image12.jpg" alt="日常助手模块配置" width="90%"/>
+  <img src="images/Extra-03-image12.jpg" alt="日常助手模块配置" width="90%"/>
   <p>图12 日常助手模块配置</p>
 </div>
 
@@ -189,7 +189,7 @@
 如图13所示：
 
 <div align="center">
-  <img src="./images/Extra03-figures/image13.png" alt="日常助手演示效果" width="80%"/>
+  <img src="images/Extra-03-image13.png" alt="日常助手演示效果" width="80%"/>
   <p>图13 日常助手演示效果</p>
 </div>
 
@@ -234,7 +234,7 @@
 如图14所示：
 
 <div align="center">
-  <img src="./images/Extra03-figures/image14.png" alt="文案优化演示效果" width="80%"/>
+  <img src="images/Extra-03-image14.png" alt="文案优化演示效果" width="80%"/>
   <p>图14 文案优化演示效果</p>
 </div>
 
@@ -250,7 +250,7 @@
 - flow中各节点分别为"开始-问题分类器-豆包T2I-直接回复"
 
 <div align="center">
-  <img src="./images/Extra03-figures/image15.jpg" alt="豆包生图flow配置" width="90%"/>
+  <img src="images/Extra-03-image15.jpg" alt="豆包生图flow配置" width="90%"/>
   <p>图15 豆包生图flow配置</p>
 </div>
 
@@ -258,7 +258,7 @@
 如图16所示：
 
 <div align="center">
-  <img src="./images/Extra03-figures/image16.png" alt="豆包生图效果展示" width="80%"/>
+  <img src="images/Extra-03-image16.png" alt="豆包生图效果展示" width="80%"/>
   <p>图16 豆包生图效果展示</p>
 </div>
 
@@ -267,7 +267,7 @@
 - 文生视频flow中各节点分别为"开始-问题分类器-豆包T2V-直接回复"
 
 <div align="center">
-  <img src="./images/Extra03-figures/image17.jpg" alt="文生视频权限开通" width="90%"/>
+  <img src="images/Extra-03-image17.jpg" alt="文生视频权限开通" width="90%"/>
   <p>图17 文生视频权限开通</p>
 </div>
 
@@ -275,7 +275,7 @@
 如图18所示：
 
 <div align="center">
-  <img src="./images/Extra03-figures/image18.png" alt="豆包生视频效果展示" width="80%"/>
+  <img src="images/Extra-03-image18.png" alt="豆包生视频效果展示" width="80%"/>
   <p>图18 豆包生视频效果展示</p>
 </div>
 
@@ -292,7 +292,7 @@
 5. 填写相应的提示词
 
 <div align="center">
-  <img src="./images/Extra03-figures/image19.jpg" alt="MCP工具集成配置步骤" width="90%"/>
+  <img src="images/Extra-03-image19.jpg" alt="MCP工具集成配置步骤" width="90%"/>
   <p>图19 MCP工具集成配置步骤</p>
 </div>
 
@@ -301,7 +301,7 @@
 - MCP服务调用的flow中各节点分别为"开始-问题分类器-Agent-直接回复"
 
 <div align="center">
-  <img src="./images/Extra03-figures/image20.jpg" alt="Agent节点配置详情" width="50%"/>
+  <img src="images/Extra-03-image20.jpg" alt="Agent节点配置详情" width="50%"/>
   <p>图20 Agent节点配置详情</p>
 </div>
 
@@ -309,21 +309,21 @@
 - 高德助手效果：如图21所示
 
 <div align="center">
-  <img src="./images/Extra03-figures/image21.png" alt="高德助手效果展示" width="80%"/>
+  <img src="images/Extra-03-image21.png" alt="高德助手效果展示" width="80%"/>
   <p>图21 高德助手效果展示</p>
 </div>
 
 - 饮食助手效果：如图22所示
 
 <div align="center">
-  <img src="./images/Extra03-figures/image22.png" alt="饮食助手效果展示" width="80%"/>
+  <img src="images/Extra-03-image22.png" alt="饮食助手效果展示" width="80%"/>
   <p>图22 饮食助手效果展示</p>
 </div>
 
 - 新闻助手效果：如图23所示
 
 <div align="center">
-  <img src="./images/Extra03-figures/image23.png" alt="新闻助手效果展示" width="50%"/>
+  <img src="images/Extra-03-image23.png" alt="新闻助手效果展示" width="50%"/>
   <p>图23 新闻助手效果展示</p>
 </div>
 
@@ -341,7 +341,7 @@
 配置数据库连接信息（IP地址、数据库名称、端口、账号、密码等），如图24所示。查询结果需要通过大模型节点进行整理，转换为易于理解的自然语言输出。
 
 <div align="center">
-  <img src="./images/Extra03-figures/image24.png" alt="数据库配置" width="50%"/>
+  <img src="images/Extra-03-image24.png" alt="数据库配置" width="50%"/>
   <p>图24 数据库配置</p>
 </div>
 
@@ -373,7 +373,7 @@
 效果展示如图25所示：
 
 <div align="center">
-  <img src="./images/Extra03-figures/image25.png" alt="数据查询助手效果" width="80%"/>
+  <img src="images/Extra-03-image25.png" alt="数据查询助手效果" width="80%"/>
   <p>图25 数据查询助手</p>
 </div>
 
@@ -407,7 +407,7 @@
 ```
 
 <div align="center">
-  <img src="./images/Extra03-figures/image26.png" alt="数据分析助手效果" width="80%"/>
+  <img src="images/Extra-03-image26.png" alt="数据分析助手效果" width="80%"/>
   <p>图26 数据分析助手</p>
 </div>
 

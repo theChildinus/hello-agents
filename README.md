@@ -1,9 +1,5 @@
-<div align="right">
-  <a href="./README_EN.md">English</a> | 中文
-</div>
-
 <div align='center'>
-  <img src="./docs/images/hello-agents.png" alt="alt text" width="100%">
+  <img src="images/hello-agents.png" alt="alt text" width="100%">
   <h1>Hello-Agents</h1>
   <h3>🤖 《从零开始构建智能体》</h3>
   <div align="center">
@@ -52,28 +48,28 @@
 
 | 章节                                                                                        | 关键内容                                      | 状态 |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------- | ---- |
-| [前言](./docs/前言.md)                                                                      | 项目的缘起、背景及读者建议                    | ✅    |
+| [前言](前言.md)                                                                      | 项目的缘起、背景及读者建议                    | ✅    |
 | <strong>第一部分：智能体与语言模型基础</strong>                                             |                                               |      |
-| [第一章 初识智能体](./docs/chapter1/第一章%20初识智能体.md)                                 | 智能体定义、类型、范式与应用                  | ✅    |
-| [第二章 智能体发展史](./docs/chapter2/第二章%20智能体发展史.md)                             | 从符号主义到 LLM 驱动的智能体演进             | ✅    |
-| [第三章 大语言模型基础](./docs/chapter3/第三章%20大语言模型基础.md)                         | Transformer、提示、主流 LLM 及其局限          | ✅    |
+| [第一章 初识智能体](01.第一章-初识智能体.md)                                 | 智能体定义、类型、范式与应用                  | ✅    |
+| [第二章 智能体发展史](02.第二章-智能体发展史.md)                             | 从符号主义到 LLM 驱动的智能体演进             | ✅    |
+| [第三章 大语言模型基础](03.第三章-大语言模型基础.md)                         | Transformer、提示、主流 LLM 及其局限          | ✅    |
 | <strong>第二部分：构建你的大语言模型智能体</strong>                                         |                                               |      |
-| [第四章 智能体经典范式构建](./docs/chapter4/第四章%20智能体经典范式构建.md)                 | 手把手实现 ReAct、Plan-and-Solve、Reflection  | ✅    |
-| [第五章 基于低代码平台的智能体搭建](./docs/chapter5/第五章%20基于低代码平台的智能体搭建.md) | 了解 Coze、Dify、n8n 等低代码智能体平台使用   | ✅    |
-| [第六章 框架开发实践](./docs/chapter6/第六章%20框架开发实践.md)                             | AutoGen、AgentScope、LangGraph 等主流框架应用 | ✅    |
-| [第七章 构建你的Agent框架](./docs/chapter7/第七章%20构建你的Agent框架.md)                   | 从 0 开始构建智能体框架                       | ✅    |
+| [第四章 智能体经典范式构建](04.第四章-智能体经典范式构建.md)                 | 手把手实现 ReAct、Plan-and-Solve、Reflection  | ✅    |
+| [第五章 基于低代码平台的智能体搭建](05.第五章-基于低代码平台的智能体搭建.md) | 了解 Coze、Dify、n8n 等低代码智能体平台使用   | ✅    |
+| [第六章 框架开发实践](06.第六章-框架开发实践.md)                             | AutoGen、AgentScope、LangGraph 等主流框架应用 | ✅    |
+| [第七章 构建你的Agent框架](07.第七章-构建你的Agent框架.md)                   | 从 0 开始构建智能体框架                       | ✅    |
 | <strong>第三部分：高级知识扩展</strong>                                                     |                                               |      |
-| [第八章 记忆与检索](./docs/chapter8/第八章%20记忆与检索.md)                                 | 记忆系统，RAG，存储                           | ✅    |
-| [第九章 上下文工程](./docs/chapter9/第九章%20上下文工程.md)                                 | 持续交互的"情境理解"                          | ✅    |
-| [第十章 智能体通信协议](./docs/chapter10/第十章%20智能体通信协议.md)                        | MCP、A2A、ANP 等协议解析                      | ✅    |
-| [第十一章 Agentic-RL](./docs/chapter11/第十一章%20Agentic-RL.md)                            | 从 SFT 到 GRPO 的 LLM 训练实战                | ✅    |
-| [第十二章 智能体性能评估](./docs/chapter12/第十二章%20智能体性能评估.md)                    | 核心指标、基准测试与评估框架                  | ✅    |
+| [第八章 记忆与检索](08.第八章-记忆与检索.md)                                 | 记忆系统，RAG，存储                           | ✅    |
+| [第九章 上下文工程](09.第九章-上下文工程.md)                                 | 持续交互的"情境理解"                          | ✅    |
+| [第十章 智能体通信协议](10.第十章-智能体通信协议.md)                        | MCP、A2A、ANP 等协议解析                      | ✅    |
+| [第十一章 Agentic-RL](11.第十一章-Agentic-RL.md)                            | 从 SFT 到 GRPO 的 LLM 训练实战                | ✅    |
+| [第十二章 智能体性能评估](12.第十二章-智能体性能评估.md)                    | 核心指标、基准测试与评估框架                  | ✅    |
 | <strong>第四部分：综合案例进阶</strong>                                                     |                                               |      |
-| [第十三章 智能旅行助手](./docs/chapter13/第十三章%20智能旅行助手.md)                        | MCP 与多智能体协作的真实世界应用              | ✅    |
-| [第十四章 自动化深度研究智能体](./docs/chapter14/第十四章%20自动化深度研究智能体.md)        | DeepResearch Agent 复现与解析                 | ✅    |
-| [第十五章 构建赛博小镇](./docs/chapter15/第十五章%20构建赛博小镇.md)                        | Agent 与游戏的结合，模拟社会动态              | ✅    |
+| [第十三章 智能旅行助手](13.第十三章-智能旅行助手.md)                        | MCP 与多智能体协作的真实世界应用              | ✅    |
+| [第十四章 自动化深度研究智能体](14.第十四章-自动化深度研究智能体.md)        | DeepResearch Agent 复现与解析                 | ✅    |
+| [第十五章 构建赛博小镇](15.第十五章-构建赛博小镇.md)                        | Agent 与游戏的结合，模拟社会动态              | ✅    |
 | <strong>第五部分：毕业设计及未来展望</strong>                                               |                                               |      |
-| [第十六章 毕业设计](./docs/chapter16/第十六章%20毕业设计.md)                                | 构建属于你的完整多智能体应用                  | ✅    |
+| [第十六章 毕业设计](16.第十六章-毕业设计.md)                                | 构建属于你的完整多智能体应用                  | ✅    |
 
 ### 社区贡献精选 (Community Blog)
 
@@ -81,15 +77,14 @@
 
 | 社区精选                                                                                                                                      | 内容总结                  |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| [00-共创毕业设计](https://github.com/datawhalechina/hello-agents/blob/main/Co-creation-projects)                                             | 社区共创毕业设计项目      |
-| [01-Agent面试题总结](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra01-面试问题总结.md)                          | Agent 岗位相关面试问题    |
-| [01-Agent面试题答案](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra01-参考答案.md)                              | 相关面试问题答案          |
-| [02-上下文工程内容补充](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra02-上下文工程补充知识.md)                 | 上下文工程内容扩展        |
-| [03-Dify智能体创建保姆级教程](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra03-Dify智能体创建保姆级操作流程.md) | Dify智能体创建保姆级教程  |
-| [04-Hello-agents课程常见问题](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra04-DatawhaleFAQ.md)                 | Datawhale课程常见问题     |
-| [05-Agent Skills与MCP对比解读](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra05-AgentSkills解读.md)             | Agent Skills与MCP技术对比 |
-| [06-GUI Agent科普与实战](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra06-GUIAgent科普与实战.md)                | GUI Agent科普与多场景实战 |
-| [07-环境配置](https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra07-环境配置.md)                | 环境配置 |
+| [01-Agent面试题总结](./Extra-Chapter/Extra01-参考答案.md)                          | Agent 岗位相关面试问题    |
+| [01-Agent面试题答案](./Extra-Chapter/Extra01-参考答案.md)                              | 相关面试问题答案          |
+| [02-上下文工程内容补充](./Extra-Chapter/Extra02-上下文工程补充知识.md)                 | 上下文工程内容扩展        |
+| [03-Dify智能体创建保姆级教程](./Extra-Chapter/Extra03-Dify智能体创建保姆级操作流程.md) | Dify智能体创建保姆级教程  |
+| [04-Hello-agents课程常见问题](./Extra-Chapter/Extra04-DatawhaleFAQ.md)                 | Datawhale课程常见问题     |
+| [05-Agent Skills与MCP对比解读](./Extra-Chapter/Extra05-AgentSkills解读.md)             | Agent Skills与MCP技术对比 |
+| [06-GUI Agent科普与实战](./Extra-Chapter/Extra06-GUIAgent科普与实战.md)                | GUI Agent科普与多场景实战 |
+| [07-环境配置](./Extra-Chapter/Extra07-环境配置.md)                | 环境配置 |
 
 ### PDF 版本下载
 
@@ -134,42 +129,15 @@
 - 📝 <strong>完善内容</strong> - 帮助改进教程，提交你的 Pull Request
 - ✍️ <strong>分享实践</strong> - 在"社区贡献精选"中分享你的学习笔记和项目
 
-## 🙏 致谢
-
-### 核心贡献者
-- [陈思州-项目负责人](https://github.com/jjyaoao) (Datawhale 成员, 全文写作和校对)
-- [孙韬-项目负责人](https://github.com/fengju0213) (Datawhale 成员, 第九章内容和校对)  
-- [姜舒凡-项目负责人](https://github.com/Tsumugii24)（Datawhale 成员, 章节习题设计和校对）
-- [黄佩林-Datawhale意向成员](https://github.com/HeteroCat) (Agent 开发工程师, 第五章内容贡献者)
-- [曾鑫民-Agent工程师](https://github.com/fancyboi999) (牛客科技, 第十四章案例开发)
-- [朱信忠-指导专家](https://xinzhongzhu.github.io/) (Datawhale首席科学家-浙江师范大学杭州人工智能研究院教授)
-### Extra-Chapter 贡献者
-- [WH](https://github.com/WHQAQ11) (内容贡献者)
-- [周奥杰-DW贡献者团队](https://github.com/thunderbolt-fire) (西安交通大学, Extra02 内容贡献)
-- [张宸旭-个人开发者](https://github.com/Tasselszcx)(帝国理工学院, Extra03 内容贡献)
-- [黄宏晗-DW贡献者团队](https://github.com/XiaoMa-PM) (深圳大学, Extra04 内容贡献)
-
-### 特别感谢
-- 感谢 [@Sm1les](https://github.com/Sm1les) 对本项目的帮助与支持
-- 感谢所有为本项目做出贡献的开发者们 ❤️
-
-<div align=center style="margin-top: 30px;">
-  <a href="https://github.com/datawhalechina/Hello-Agents/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=datawhalechina/Hello-Agents" />
-  </a>
-</div>
 
 ## 读者交流群
 
-<div align='center'>
-    <img src="./读者群二维码.png" alt="读者群二维码" width="30%">
-    <p>扫描二维码加入读者交流群，与更多学习者交流讨论</p>
-</div>
+&emsp;&emsp;欢迎加入读者交流群，与更多学习者交流讨论（群二维码将在后续公布）
 
 ## Star History
 
 <div align='center'>
-    <img src="./docs/images/star-history-2026113.png" alt="Datawhale" width="90%">
+    <img src="images/star-history-2026113.png" alt="Datawhale" width="90%">
 </div>
 
 <div align="center">
@@ -179,7 +147,7 @@
 ## 关于 Datawhale
 
 <div align='center'>
-    <img src="./docs/images/datawhale.png" alt="Datawhale" width="30%">
+    <img src="images/datawhale.png" alt="Datawhale" width="30%">
     <p>扫描二维码关注 Datawhale 公众号，获取更多优质开源内容</p>
 </div>
 
