@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://github.com/Tasselszcx.png" width="80" height="80" style="border-radius: 50%;" />
   <br />
-  <strong>作者：</strong> <a href="https://github.com/Tasselszcx">Tasselszcx</a>
+  **作者：** <a href="https://github.com/Tasselszcx">Tasselszcx</a>
   <br />
   <em>原创教程 | 保姆级指南 | 完整实践</em>
 </div>
@@ -22,14 +22,14 @@
 
 关于 MCP 的详细原理这里不展开，我们重点演示如何使用云端部署的 MCP 服务。本案例使用国内的魔搭社区 MCP 市场进行演示，具体步骤如下：
 
-<strong>(1) 进入ModelScope社区</strong>：[https://www.modelscope.cn/home](https://www.modelscope.cn/home)
+**(1) 进入ModelScope社区**：[https://www.modelscope.cn/home](https://www.modelscope.cn/home)
 
-<strong>(2) 注册账号并登录</strong>，如图2所示
+**(2) 注册账号并登录**，如图2所示
 
 
 ![图2 ModelScope注册登录界面](../images/Extra-03-image2.jpg)
 
-<strong>(3) 进入高德地图MCP配置页面</strong>
+**(3) 进入高德地图MCP配置页面**
    - 登录后，按照图3所示，一步步点击进入高德地图MCP配置页面
    - 页面应如图4所示
 
@@ -45,7 +45,7 @@
 
 
 
-<strong>(4) 进入高德开放平台</strong>：[https://console.amap.com/dev/index](https://console.amap.com/dev/index)
+**(4) 进入高德开放平台**：[https://console.amap.com/dev/index](https://console.amap.com/dev/index)
    - 按照图5中文字指示新建应用
 
 
@@ -54,7 +54,7 @@
 
 
 
-<strong>(5) 创建api_key</strong>
+**(5) 创建api_key**
    - 如图6所示，一步步创建api_key
    - 将创建好的api_key输入图4的红框中，即可显示配置成功
    - 配置成功页面如图7所示
@@ -71,7 +71,7 @@
 
 
 
-<strong>至此，整个高德地图MCP配置完成！</strong>
+**至此，整个高德地图MCP配置完成！**
 
 ## 3. Agent设计与效果展示
 
@@ -122,10 +122,10 @@
 
 这是一个基础的对话模块，配置大语言模型和时间工具，作为兜底的通用问答服务。
 
-<strong>配置说明</strong>：
+**配置说明**：
 - 配置说明及连线参考图12
 - 具体flow中各节点分别为"开始-问题分类器-LLM-直接回复"
-- <strong>后续我们直接用节点flow进行说明每个模块的flow</strong>
+- **后续我们直接用节点flow进行说明每个模块的flow**
 
 
 
@@ -133,7 +133,7 @@
 
 
 
-<strong>LLM节点的system_prompt如下</strong>：
+**LLM节点的system_prompt如下**：
 ```
 # Role: 日常问题咨询专家
 
@@ -194,7 +194,7 @@
 作为日常问题咨询专家，你必须遵守上述Rules，按照Workflows执行任务。
 ```
 
-<strong>演示效果</strong>：
+**演示效果**：
 如图13所示：
 
 
@@ -207,10 +207,10 @@
 
 根据 OpenAI 的数据报告，超过60%的用户使用 ChatGPT 进行文本优化相关任务，包括润色、修改、扩写、缩写等。因此，文案优化是高频需求场景，我们将其作为第二个核心功能模块。
 
-<strong>具体配置</strong>：
+**具体配置**：
 - 具体flow中各节点分别为"开始-问题分类器-LLM-直接回复"，同（3）
 
-<strong>LLM节点的system_prompt如下</strong>：
+**LLM节点的system_prompt如下**：
 ```
 # 一、 角色人设（Role）
 你是一位专业的文案优化专家，拥有丰富的营销文案写作和优化经验，擅长提升文案的吸引力、转化率和可读性。你的视角是站在目标受众和营销目标的角度，专业度边界限于文案优化领域，不涉及技术实现或产品开发。
@@ -240,7 +240,7 @@
 ```
 
 
-<strong>演示效果</strong>：
+**演示效果**：
 如图14所示：
 
 
@@ -253,7 +253,7 @@
 
 图片和视频生成是另一个高频应用场景。随着豆包生图、Google Imagen 等模型的进化，以及可灵、Google Veo 3、OpenAI Sora 2 等视频生成技术的突破，多模态内容生成的质量已达到实用水平。
 
-<strong>图片生成配置</strong>：
+**图片生成配置**：
 - 本案例使用豆包插件实现图片和视频生成
 - 关于豆包插件的图片、视频生成权限及api_key获取，请参考这篇blog，讲解的极其清晰，建议直接看blog中的第3、4部分：
   [https://blog.csdn.net/sjkflw121150/article/details/148480867#:~:text=3.-,%E8%B0%83%E7%94%A8Doubao%E6%96%87%E7%94%9F%E5%9B%BE%E5%B7%A5%E5%85%B7,-%E8%B0%83%E7%94%A8%20Doubao](https://blog.csdn.net/sjkflw121150/article/details/148480867#:~:text=3.-,%E8%B0%83%E7%94%A8Doubao%E6%96%87%E7%94%9F%E5%9B%BE%E5%B7%A5%E5%85%B7,-%E8%B0%83%E7%94%A8%20Doubao)
@@ -266,7 +266,7 @@
 
 
 
-<strong>生图效果</strong>：
+**生图效果**：
 如图16所示：
 
 
@@ -275,7 +275,7 @@
 
 
 
-<strong>视频生成配置</strong>：
+**视频生成配置**：
 - 视频生成与图片生成同理，火山引擎中开通文生视频权限即可，见图17的说明
 - 文生视频flow中各节点分别为"开始-问题分类器-豆包T2V-直接回复"
 
@@ -285,7 +285,7 @@
 
 
 
-<strong>生视频效果</strong>：
+**生视频效果**：
 如图18所示：
 
 
@@ -298,7 +298,7 @@
 
 在前面我们已经完成了 MCP 的配置，现在将其集成到智能体中。
 
-<strong>配置步骤</strong>（参考图19）：
+**配置步骤**（参考图19）：
 
 1. 选择支持 MCP 调用的Agent节点
 2. 选择 ReAct 模式
@@ -312,7 +312,7 @@
 
 
 
-<strong>具体配置</strong>：
+**具体配置**：
 - 最后Agent节点填写信息可参考图20
 - MCP服务调用的flow中各节点分别为"开始-问题分类器-Agent-直接回复"
 
@@ -322,7 +322,7 @@
 
 
 
-<strong>效果展示</strong>：
+**效果展示**：
 - 高德助手效果：如图21所示
 
 
@@ -349,7 +349,7 @@
 
 ### （7）数据查询与分析模块
 
-<strong>数据查询与分析模块</strong>
+**数据查询与分析模块**
 
 数据处理是智能体的重要能力之一。本模块演示如何在 Dify 中连接数据库，实现数据查询和可视化分析。
 
@@ -366,7 +366,7 @@
 
 
 
-<strong>提示词设置：</strong>
+**提示词设置：**
 ```
 # 一、 角色人设（Role）
 您是一位专业的数据查询师，擅长数据整理，具有清晰的逻辑思维和简洁表达能力。
@@ -399,7 +399,7 @@
 
 
 
-<strong>提示词设置：</strong>
+**提示词设置：**
 ```
 # 一、 角色人设（Role）
 你是一位专业的数据分析师，具备数据整理、清洗和可视化能力，能够从原始数据中提取关键信息并转化为直观的可视化展示。
@@ -438,7 +438,7 @@
 
 ---
 
-<strong>至此，我们完成了一个功能全面的超级智能体个人助手。</strong>
+**至此，我们完成了一个功能全面的超级智能体个人助手。**
 
 该助手涵盖了生活的多个方面：
 - 需要新衣服时，可以让豆包生成设计
@@ -446,7 +446,7 @@
 - 不知道吃什么时，可以获取饮食推荐
 - 想了解学习情况时，可以进行数据分析
 
-<strong>这个智能体能够处理各类工作和生活任务，期待看到大家搭建出更多有创意的私人智能体助手。</strong>
+**这个智能体能够处理各类工作和生活任务，期待看到大家搭建出更多有创意的私人智能体助手。**
 
 ## 参考文献
 1. ModelScope社区. https://www.modelscope.cn/home
